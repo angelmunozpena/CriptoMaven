@@ -25,4 +25,10 @@ public class CifradoTest
     {
         assertNotEquals("C",CifradoCesar.cifradoCesar("A", 1));
     }
+
+    @Test
+    public void cesarCifradoCadena()
+    {
+        assertEquals("BC",CifradoCesar.cifradoCesar("AB", 1));
+    }
 }
